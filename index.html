@@ -18,10 +18,10 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <!--[if lte IE 8
-      ]><script src="assets/js/ie/html5shiv.js"></script
+      ]><script src="assets_old/js/ie/html5shiv.js"></script
     ><![endif]-->
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <script type="text/javascript" src="assets/js/ics.js"></script>
+  <link rel="stylesheet" href="assets_old/css/main.css" />
+  <script type="text/javascript" src="assets_old/js/ics.js"></script>
   </script>
 
 </head>
@@ -53,7 +53,7 @@
       </div>
     </header> -->
 
-    <!-- NAVIGATION: Controlled by HTML snippet in snippets/nav.html -->
+    <!-- NAVIGATION: Controlled by HTML snippet in snippets_old/nav.html -->
     <nav id="nav"></nav>
 
     <!-- Banner -->
@@ -78,7 +78,7 @@
       <div id="main" class="container grid2">
         <div class="row 200%">
           <div class="12u mainleft">
-            <!-- RECENT NEWS: Controlled by HTML snippet in snippets/recent-news.html -->
+            <!-- RECENT NEWS: Controlled by HTML snippet in snippets_old/recent-news.html -->
 
             <!-- <aside>
                 <h2 class="major facebook">
@@ -141,15 +141,15 @@
             </div>
             <div style="margin-bottom: 100px;" class="row 200%">
               <div style="margin-top: -50px;" class="12u">
-                <!-- WHO WE ARE: Controlled by HTML snippet in snippets/who-we-are.html -->
+                <!-- WHO WE ARE: Controlled by HTML snippet in snippets_old/who-we-are.html -->
                 <div id="who-we-are"></div>
               </div>
             </div>
-            <!-- INITIATIVES: Controlled by HTML snippet in snippets/initiatives.html -->
+            <!-- INITIATIVES: Controlled by HTML snippet in snippets_old/initiatives.html -->
             <h2 class="major">
               <span>Initiatives</span>
             </h2>
-                <!-- INITIATIVES: Controlled by HTML snippet in snippets/initiatives.html -->
+                <!-- INITIATIVES: Controlled by HTML snippet in snippets_old/initiatives.html -->
             <div id="initiatives"></div>
             <div style="margin-bottom: 100px;">
               <div class="container">
@@ -293,21 +293,21 @@
       </div>
     </div>
 
-    <!-- FOOTER: Controlled by HTML snippet in snippets/footer.html-->
+    <!-- FOOTER: Controlled by HTML snippet in snippets_old/footer.html-->
     <div id="footer"></div>
   </div>
 
   <!-- Scripts -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.dropotron.min.js"></script>
-  <script src="/assets/js/jquery.csv.min.js"></script>
-  <script src="assets/js/skel.min.js"></script>
-  <script src="assets/js/skel-viewport.min.js"></script>
-  <script src="assets/js/util.js"></script>
+  <script src="assets_old/js/jquery.min.js"></script>
+  <script src="assets_old/js/jquery.dropotron.min.js"></script>
+  <script src="/assets_old/js/jquery.csv.min.js"></script>
+  <script src="assets_old/js/skel.min.js"></script>
+  <script src="assets_old/js/skel-viewport.min.js"></script>
+  <script src="assets_old/js/util.js"></script>
   <!--[if lte IE 8
-      ]><script src="assets/js/ie/respond.min.js"></script
+      ]><script src="assets_old/js/ie/respond.min.js"></script
     ><![endif]-->
-  <script src="assets/js/main.js"></script>
+  <script src="assets_old/js/main.js"></script>
   <script>
 
     //Calendar
@@ -353,17 +353,17 @@
 
 
     $(function () {
-      $("#nav").load("snippets/nav.html"); /*Navigation: Controlled by HTML snippet in snippets/nav.html*/
+      $("#nav").load("snippets_old/nav.html"); /*Navigation: Controlled by HTML snippet in snippets_old/nav.html*/
 
       $("#who-we-are").load(
-        "snippets/who-we-are.html"
-      ); /*WHO WE ARE: Controlled by HTML snippet in snippets/who-we-are.html*/
+        "snippets_old/who-we-are.html"
+      ); /*WHO WE ARE: Controlled by HTML snippet in snippets_old/who-we-are.html*/
       $("#initiatives").load(
-        "snippets/initiatives.html"
-      ); /*INITIATIVES: Controlled by HTML snippet in snippets/initiatives.html*/
+        "snippets_old/initiatives.html"
+      ); /*INITIATIVES: Controlled by HTML snippet in snippets_old/initiatives.html*/
       $("#footer").load(
-        "snippets/footer.html"
-      ); /*FOOTER: Controlled by HTML snippet in snippets/footer.html*/
+        "snippets_old/footer.html"
+      ); /*FOOTER: Controlled by HTML snippet in snippets_old/footer.html*/
     });
   </script>
   <script>
@@ -383,7 +383,7 @@
         }
         setInterval(function () {
           document.getElementById("banner-wrapper").style.backgroundImage =
-            "url('assets/css/images/overlay1.png'), url('assets/css/images/overlay1.png'), url('images/banners/" +
+            "url('assets_old/css/images/overlay1.png'), url('assets_old/css/images/overlay1.png'), url('images/banners/" +
             line_image[slide_count] +
             ".jpg')";
           document.getElementById("banner-title").innerText =
